@@ -1,0 +1,71 @@
+a:visited {
+    color: inherit;
+  }
+
+.cabecalho{
+    margin-top: 80px;
+}
+.cabecalhoTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(160, 2, 2);
+}
+.cabCima{
+    position: absolute;
+    top: 13%;
+    font-size: 45px;
+}
+.cabBaixo{
+    position: absolute;
+    top: 18%;
+    font-size: 90px;  
+}
+.cabImg{
+    width: 30%;
+    height: 350px;
+    margin-top: 110px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.opc{
+    width: 600px;
+    left: 10px;
+    margin-top: -180px;
+    object-fit: cover;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.opc > .bebImg{
+    opacity: 0.7;
+    width: 200px;
+    height: 100px;
+    border-radius: 15%;
+}
+
+.nmbeb {
+    position: absolute;
+    font-size: 30px;
+    left: 250px;
+    top: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nmcom {
+    position: absolute;
+    font-size: 30px;
+    left: 240px;
+    top: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opc > .comImg{
+    opacity: 0.7;
+    width: 200px;
+    height: 100px;
+    border-radius: 15%;
+}
